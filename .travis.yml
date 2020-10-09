@@ -1,0 +1,7 @@
+language: python
+python:
+- 3.7.4
+before_install:
+- pip install -r requiremements.txt
+script:
+- pytest com/ALE/test
